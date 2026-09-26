@@ -7,7 +7,7 @@ import PropertyAmenities from "./PropertyAmenities";
 import PropertMapInfo from "./PropertyMapInfo";
 import { useParams } from "react-router-dom";
 import LoadingSpinner from "../LoadingSpinner";
-import { getPropertyDetails } from "../../store/propertyDetails/propertyDetails-action";
+import { getPropertyDetails } from "../../store/PropertyDetails/propertyDetails-action";
 import { useDispatch, useSelector } from "react-redux";
 
 // import {
